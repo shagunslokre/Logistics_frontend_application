@@ -1,0 +1,228 @@
+.body {
+    background-color: #f09c00;
+    text-align: center;
+}
+
+#container-register {
+    background-color: #f8c471  ;
+    position: relative;
+    top: 0.0%;
+    margin-top: 600px;
+    margin: auto;
+    color: white;
+    width: 400px;
+    height: 450px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    opacity: 100%;
+}
+
+#title {
+    position: relative;
+    color: black;
+    font-size: 90px;
+    background-color:#f09c00;
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: x-large;
+}
+
+.input {
+    margin: auto;
+    width: 240px;
+    /*border-radius: 400px;*/
+    color: black;
+    background-color: #ffffff;
+    padding: 1px 0px;
+    margin-top: 8px;
+}
+
+.lock {
+	position: relative;
+	top: 2px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text] {
+    color: #000000;
+    margin: 0;
+    background-color: #ffffff;
+    border: 0px solid #000000;
+    padding: 4px 4px;
+    /*border-radius: 300px;*/
+}
+
+input[type=text]:focus {
+    border: 1px solid #ffffff;
+    
+}
+
+input[type=password] {
+    color: #000000;
+    margin: 0;
+    background-color: #ffffff;
+    border: 0px solid #000000;
+    padding: 6px 0px;
+    /*border-radius: 300px;*/
+}
+
+input[type=password]:focus {
+    border: 1px solid #ffffff;
+}
+
+input[type=tel] {
+    color: #000000;
+    margin: 0;
+    background-color: #ffffff;
+    border: 0px solid #000000;
+    padding: 6px 0px;
+    border-radius: 300px;
+}
+
+input[type=tel]:focus {
+    border: 1px solid #ffffff;
+    
+}
+/*.forgot-password {
+    position: relative;
+    bottom: 0%;
+    color: #000000;
+}
+
+.forgot-password a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.forgot-password a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.forgot-password a:hover {
+    color: #FFF;
+    transition: color 1s;
+}*/
+
+.privacy {
+    margin-top: 5px;
+    position: relative;
+    font-size: 12px;
+    bottom: 0%;
+}
+
+.privacy a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.privacy a:visited {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.privacy a:hover {
+    color: #C1C3C6;
+    transition: color 1s;
+}
+
+*:focus {
+    outline: none;
+}
+
+.remember-me {
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    padding: 6px 25px;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 300px;
+}
+
+
+#topnav {
+    top: -7.6px;
+    background-color:  #f39c12;
+    width: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+   /* position: static; */
+ }
+  
+#topnav a {
+    float: right;
+    color:black;
+    text-align: center;
+    padding: 6px 8px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+#topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#topnav a.active {
+    background-color: #154070;
+    color: white;
+}
+
+.rightside {
+    float: left;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+
+th,td {
+    padding: 22px;
+}
+
+.footer {
+    position: static;
+    margin-top: 140px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    clear: both;
+    width: auto;
+    height: 270px;
+}
+
+#Home {
+    text-align: center;
+}
+
+#About{
+    text-align: center;
+}
+
+#Contact {
+    text-align: center;
+}
+
+.info {
+    text-align: left;
+}
